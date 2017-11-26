@@ -3,54 +3,46 @@
 body {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url(./img/sky--purple-kracked.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 .wrapper {
+    margin: 0 auto;
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100vh;
+    align-items: center;
+    flex-direction: column;
     color: white;
     font-family: sans-serif;
     font-size: 1.3rem;
 }
 
-.video-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: -2;
-    overflow: hidden;
-    background: #000;
-    filter: blur(2px);
-}
-
-.filter {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.8;
-    z-index: -1;
-}
-.info-container {
+.header {
     width: 80%;
-}
-
-h2 {
-    transform: skewY(-5deg);
-    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .js30 {
+    transform: skewY(-3deg);
+    margin-bottom: 2rem;
     font-family: 'Sedgwick Ave Display', cursive;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .orange {
     color: orange;
+}
+.challenge {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 li a {
