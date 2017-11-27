@@ -9,10 +9,11 @@ body {
     justify-content: center;
     flex-direction: column;
     position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .link, .link a {
-    color: #819cd1;
+    color: #ffffff;
 }
 .link {
     position: absolute;

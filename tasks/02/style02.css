@@ -8,6 +8,15 @@ body {
     background: #6bd1ff url(http://unsplash.it/1500/1000?random&blur=50);
     background-size: auto;
     background-repeat: no-repeat;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.link, .link a {
+    color: #ffffff;
+}
+.link {
+    position: absolute;
+    top: 1%;
+    left: 1%;
 }
 
 .clock {
