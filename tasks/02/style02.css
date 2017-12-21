@@ -6,7 +6,7 @@ body {
     justify-content: center;
     flex: 1;
     background: #6bd1ff url(http://unsplash.it/1500/1000?random&blur=50);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
